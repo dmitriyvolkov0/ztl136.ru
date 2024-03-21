@@ -1,0 +1,16 @@
+@media (max-width: 767.98px) {
+    .contacts__item{
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 575px) {
+    .contacts__item{padding: 15px;}
+    .contacts__icon{font-size: 20px;}
+    .contacts__title{
+        font-size: 20px;
+        padding-left: 10px;
+    }
+}

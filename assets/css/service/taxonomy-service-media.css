@@ -1,0 +1,24 @@
+@media (max-width: 991.98px) {
+    .service{padding-top: 120px;}
+}
+
+@media (max-width: 767.98px) {
+    .service{padding-top: 100px;}
+    .service__title{font-size: 18px;}
+    .service__description{font-size: 14px;}
+}
+
+@media (max-width: 575.98px) {
+    .service{padding-top: 90px;}
+    .service__pagination{
+        justify-content: space-evenly;
+        gap: 10px;
+    }
+    .service__pagination .nav-previous,
+    .service__pagination .nav-next{
+        width: 100%;
+        max-width: 200px;
+    }
+    .service__pagination .but-3{margin: 0;}
+    
+}

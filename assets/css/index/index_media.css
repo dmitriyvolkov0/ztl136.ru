@@ -1,0 +1,165 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 1555 Safari versions
+*/
+
+@media (max-width: 1199.98px) {
+    /* main-screen */
+    .main-screen__title{ font-size: 60px; }
+    .main-screen__subtitle{
+        font-size: 18px;
+        max-width: 900px;
+    }
+
+    /* service */
+    .service__hover-title{
+        margin-top: 0;
+        font-size: 18px;
+    }
+
+    .service__hover-content{
+        padding: 30px 20px 20px ;
+    }
+
+    .service__box{top: 20px;}
+    .service__box.box1{left: 20px; }
+    .service__box.box2{right: 20px;}
+
+    /* advantage */
+    .advantage__plus{ padding-left: 50px; }
+
+    /* .our-possibilities */
+    .our-possibilities__item{max-height: 300px;}
+}
+
+@media (max-width: 991.98px) {
+    /* main-screen */
+    .main-screen__title{ font-size: 50px; }
+    .main-screen__line{width: 180px;}
+
+    /* service */
+    .service{padding-top: 50px;}
+    .service__card{margin-bottom: 30px;}
+
+    /* advantage */
+    .advantage__plus{ padding-left: 13px; }
+
+    /* works slider*/
+    .works__slider{padding: 40px;}
+    .works__slider img{ max-height: 80px; }
+}
+
+@media (max-width: 767.98px) {
+    /* main-screen */
+    .main-screen__title{ font-size: 40px; }
+    .main-screen__subtitle{
+        font-size: 16px;
+    }
+    .main-screen__line{
+        width: 140px;
+        height: 3px;
+    }
+
+    /* service */
+    .service__card{
+        max-height: 300px;
+        max-width: 500px;
+        margin: 0 auto 20px auto;
+    }
+
+    /* advantage */
+    .advantage__ul li{ font-size: 14px; }
+    .advantage__plus{ padding-left: 0; }
+    .advantage__border{display: block !important;}
+    .advantage__experience-row{padding: 20px 0;}
+
+    /* works slider*/
+    .works__slider{
+        padding: 30px;
+        margin: 0 15px;
+    }
+    .works__slider img{ max-height: 70px; }
+
+    /* our possibilities */
+    .our-possibilities__caption{font-size: 16px;}
+    .our-possibilities__but{display: none;}
+
+    .our-possibilities__item{border: 3px solid #fff;}
+    .our-possibilities__item:first-child,
+    .our-possibilities__item:nth-child(2){
+        border-top: 6px solid #fff;
+    }
+    .our-possibilities__item:nth-child(even){ border-right: 6px solid #fff; }
+    .our-possibilities__item:nth-child(odd){ border-left: 6px solid #fff; }
+    .our-possibilities__item:nth-last-child(-n + 2){ border-bottom: 6px solid #fff; }
+}
+
+@media (max-width: 575.98px) {
+    /* main-screen */
+    .main-screen__title{ font-size: 28px; }
+    .main-screen__subtitle{
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    .main-screen__line{width: 120px;}
+
+    /* advantage */
+    .advantage__experience-num{ font-size: 45px; }
+    .advantage__experience-text{ font-size: 14px; }
+
+    /* our possibilities */
+    .our-possibilities__item:hover .our-possibilities__caption{ margin-top: -80px;}
+    .our-possibilities__caption{
+        position: relative;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+                justify-content: center;
+        text-align: center;
+        left: auto;
+        top: -30px;
+        font-size: 14px;
+        margin-top: -80px;
+        text-shadow: 5px 5px 20px var(--brand-cl);
+    }
+    .our-possibilities__item:hover img{
+        opacity: .3;
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+    }
+
+    .our-possibilities__item img{opacity: .7;}
+
+    /* reviews */
+    .reviews__widget{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    /* main-screen */
+    .main-screen__title{ 
+        font-size: 25px;
+        padding: 0;
+    }
+    .main-screen__line{
+        margin: 20px 0;
+    }
+}
+
+@media (max-width: 380px) {
+    /* main-screen */
+    .main-screen__title{ font-size: 30px; }
+    .main-screen__subtitle{font-size: 16px;}
+
+    /* advantage */
+    .advantage__experience-num{ font-size: 40px; }
+    .advantage__experience-text{ font-size: 12px; }
+    
+    /* our-possibilities__caption */
+    .our-possibilities__caption{font-size: 12px;}
+}
